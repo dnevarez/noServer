@@ -1,0 +1,210 @@
+.about {
+  display: flex;
+  align-content: center;
+  background: linear-gradient to bottom right, white, #fefefe; }
+
+.about-wrapper {
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  align-self: center; }
+
+.about-desc {
+  width: 50%;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  align-self: center;
+  text-shadow: 3px 3px 4px #c3c2c1; }
+
+.about-image {
+  height: 250px;
+  width: 350px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px #c3c2c1; }
+
+.contact-wrapper {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center; }
+
+.background {
+  background: linear-gradient(to bottom, #E9E3C6, white); }
+
+.send-mail {
+  height: 220px;
+  width: 50%;
+  flex-flow: column;
+  display: flex;
+  background: #E9E3C6;
+  border-radius: 10px; }
+
+.contact {
+  width: 90%;
+  margin-bottom: 3px;
+  align-self: center; }
+
+.name-input {
+  margin-top: 12px; }
+
+.message-input {
+  height: 100px;
+  border: 1px solid lightgrey;
+  margin-top: 3px; }
+
+.send {
+  width: 69%;
+  margin-top: 3px;
+  align-self: center; }
+
+top-header {
+  height: 5em;
+  width: 100vw;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to top right, #B39E89, #DEB847);
+  opacity: .6; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 90%; }
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 4px #000000; }
+
+.jump {
+  align-self: center; }
+
+.underline {
+  display: none; }
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0; }
+  60% {
+    transform: scale(0.6);
+    opacity: .8; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+.glow {
+  color: #fff;
+  text-shadow: -1px 1px 20px #f8f8f8, 1px -1px 20px #f8f8f8; }
+
+.active {
+  display: flex;
+  justify-content: center;
+  width: calc(95%);
+  margin-left: 3%;
+  height: 4px;
+  background: black;
+  border-radius: 5px;
+  animation: bounceIn 2s; }
+
+.landing {
+  background: url("https://static.pexels.com/photos/625/field-summer-sun-meadow.jpg") no-repeat center;
+  background-size: cover;
+  height: 97vh; }
+
+.color {
+  opacity: .9;
+  height: 100%; }
+
+.landing-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+#name {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 5em;
+  align-self: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000; }
+
+#desc {
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 5em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000; }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  height: inherit; }
+
+.img-container {
+  height: 322px;
+  width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px; }
+
+.projects-container {
+  align-self: center;
+  height: 80%;
+  width: 80%;
+  display: inline-flex;
+  justify-content: space-around; }
+
+.proj-descr {
+  justify-content: center;
+  align-self: center; }
+
+img {
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%; }
+
+.port-height {
+  height: 100%; }
+
+.reveal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #AEADA9, white);
+  opacity: .5;
+  width: 420px; }
+
+.pic {
+  height: 310px; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1; }
+
+.view {
+  height: 100%; }
+
+.section-container {
+  height: 100vh; }

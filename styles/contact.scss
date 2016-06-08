@@ -1,0 +1,44 @@
+.contact-wrapper {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.background {
+  background:   linear-gradient(to bottom ,#E9E3C6, white);
+}
+
+.send-mail {
+  height: 220px;
+  width: 50%;
+  flex-flow: column;
+  display: flex;
+  // background: linear-gradient(to bottom ,#E9E3C6, white);
+  background: #E9E3C6;
+  border-radius: 10px;
+}
+
+.contact {
+  width:90%;
+  margin-bottom: 3px;
+  align-self: center;
+}
+
+.name-input {
+  margin-top: 12px;
+}
+
+.message-input {
+  height: 100px;
+  border: 1px solid lightgrey;
+  margin-top: 3px;
+}
+
+.send {
+  width: 69%;
+  margin-top: 3px;
+  align-self: center;
+}

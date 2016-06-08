@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  align-content: center;
+  background: linear-gradient (to bottom right, white, #fefefe)
+}
+
+.about-wrapper {
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.about-desc {
+  width: 50%;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  align-self: center;
+  text-shadow: 3px 3px 4px #c3c2c1;
+}
+
+
+.about-image {
+  height: 250px;
+  width: 350px;
+  // align-self: center;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px #c3c2c1
+}
